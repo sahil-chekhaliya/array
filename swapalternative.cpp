@@ -10,7 +10,8 @@ int temp;
 for (int i=0;i<n-1;i+=2)
 
 {// you can use inbuilt swap function
-          
+    //swap(arr[i],arr[i+1]);      
+
          // or
 
     // using third variable approach
@@ -52,7 +53,7 @@ int main()
 {
 
 
-    int arr[10]={71,42,46,7,18};
+    int arr[10]={71,42,20,30,46};
 
 cout<<"original array"<<endl;
     printarray(arr,5);
