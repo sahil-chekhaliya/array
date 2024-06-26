@@ -43,7 +43,11 @@ void print(int a[],int n)
 int main()
 {
 
-int array[6]={2,1,0,0,2,1};
+int array[6];
+
+for(int i=0;i<=6;i++){
+   cin>>array[i];
+}
 
 sort(array,6);
 print(array,6);
